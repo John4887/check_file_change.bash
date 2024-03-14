@@ -43,7 +43,7 @@ Then restart Nagios service and that's all!
 
 ### What to do if a change happend?
 
-If there is the monitored file, the status will go to WARNING in Nagios and it will not go again to OK status until you have validated the change manually! Why? Because otherwise, it's a non-sense. You monitor a file and if the script inform there is a change, you HAVE to see it. Without manual control, there would be no way to return to an OK state unless the script overwrites the status itself, which is of course completely illogical.
+If there is a change in the monitored file, the status will go to WARNING in Nagios and it will not go again to OK status until you have validated the change manually! Why? Because otherwise, it's a non-sense. You monitor a file and if the script inform there is a change, you HAVE to see it. Without manual control, there would be no way to return to an OK state unless the script overwrites the status itself, which is of course completely illogical.
 
 But relax, it's simple. You have the choice. Log on to the relevant server and run the following command from the directory where the script is located:
 
